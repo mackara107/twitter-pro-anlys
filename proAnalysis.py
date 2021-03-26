@@ -46,8 +46,8 @@ def get_tweets_for_model(cleaned_tokens_list):
 #-----mySQL queries
 con = mysql.connector.connect(
           host='localhost',
-          user='km677788',
-          password='288462',
+          user='***',
+          password='****',
           database='karadb' )
 cursor = con.cursor()
 
