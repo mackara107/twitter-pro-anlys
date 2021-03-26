@@ -16,7 +16,7 @@ if (!isset( $_SERVER["HTTP_HOST"] ) && isset( $argv[1] )) {
 
 <?php
 	try{
-		$conn = new PDO("mysql:host=localhost;dbname=karadb","km677788","288462");
+		$conn = new PDO("mysql:host=localhost;dbname=karadb","****","****");
 		echo("<!-- connected --> \n");
 	}catch (PDOException $e){
 		die("connection failed: ".$e->getMessage());
